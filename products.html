@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Best Jaya Abadi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="images/logo.png" style="width: 40px;" alt="">
+                CV. BEST JAYA ABADI
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+     <section id="products" class="section products-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Products</h2>
+                <p>Premium quality products cultivated with sustainable practices</p>
+            </div>
+
+            <!-- Product Switch -->
+            <div class="product-switch">
+                <div class="switch-container">
+                    <button class="switch-btn active" data-category="agricultural">Agricultural Products</button>
+                    <button class="switch-btn" data-category="livestock">Livestock Products</button>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <!-- Agricultural Products -->
+                <div class="product-card" data-category="agricultural">
+                    <div class="product-image">
+                        <img src="images/agr1.png" alt="Moringa">
+                        <span class="product-badge">Organic</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Moringa Leaves</h5>
+                        <p>High-quality organic rice grown without chemical pesticides. Rich in nutrients and safe for your family.</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="agricultural">
+                    <div class="product-image">
+                        <img src="images/agr2.png" alt="Vegetables">
+                        <span class="product-badge">Fresh</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Galangal</h5>
+                        <p>Fresh vegetables from modern hydroponic cultivation. Soil-free and pesticide-free for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="agricultural">
+                    <div class="product-image">
+                        <img src="images/agr3.png" alt="Fruits">
+                        <span class="product-badge">Local</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Sweet Leaf</h5>
+                        <p>Various premium tropical fruits from local farmers. Fresh, sweet, and packed with essential vitamins.</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="agricultural">
+                    <div class="product-image">
+                        <img src="images/agr4.png" alt="Corn">
+                        <span class="product-badge">Premium</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Vanilla</h5>
+                        <p>Superior hybrid corn variety with high productivity. Perfect for both consumption and livestock feed.</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="agricultural">
+                    <div class="product-image">
+                        <img src="images/agr5.png" alt="Fertilizer">
+                        <span class="product-badge">Eco-Friendly</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Coffee</h5>
+                        <p>Premium organic fertilizer that enhances soil fertility naturally and sustainably.</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="agricultural">
+                    <div class="product-image">
+                        <img src="images/agr6.png" alt="Seeds">
+                        <span class="product-badge">Certified</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Turmeric</h5>
+                        <p>Certified high-quality seeds with superior germination rates for optimal harvest results.</p>
+                    </div>
+                </div>
+
+                <!-- Livestock Products -->
+                <div class="product-card hidden" data-category="livestock">
+                    <div class="product-image">
+                        <img src="images/lsp1.png" alt="Cattle">
+                        <span class="product-badge">Premium</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Broiler Chicken</h5>
+                        <p>High-quality cattle raised with proper nutrition and care. Perfect for meat production with excellent marbling.</p>
+                    </div>
+                </div>
+                <div class="product-card hidden" data-category="livestock">
+                    <div class="product-image">
+                        <img src="images/lsp2.png" alt="Poultry">
+                        <span class="product-badge">Organic</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Catfish</h5>
+                        <p>Organic free-range chickens raised without antibiotics. Healthier and more flavorful meat.</p>
+                    </div>
+                </div>
+                <div class="product-card hidden" data-category="livestock">
+                    <div class="product-image">
+                        <img src="images/lsp3.png" alt="Goat">
+                        <span class="product-badge">Local</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Sheep</h5>
+                        <p>Premium local goats raised naturally. Ideal for meat production with authentic local taste.</p>
+                    </div>
+                </div>
+                <div class="product-card hidden" data-category="livestock">
+                    <div class="product-image">
+                        <img src="images/lsp4.png" alt="Dairy">
+                        <span class="product-badge">Fresh</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Cattle</h5>
+                        <p>High-quality cattle raised with proper nutrition and care. Perfect for meat production with excellent marbling.</p>
+                    </div>
+                </div>
+                <div class="product-card hidden" data-category="livestock">
+                    <div class="product-image">
+                        <img src="images/lsp5.png" alt="Duck">
+                        <span class="product-badge">Premium</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Goldfish</h5>
+                        <p>High-quality ducks for both meat and eggs. Raised in optimal conditions for best quality.</p>
+                    </div>
+                </div>
+                <div class="product-card hidden" data-category="livestock">
+                    <div class="product-image">
+                        <img src="images/lsp6.png" alt="Feed">
+                        <span class="product-badge">Nutritious</span>
+                    </div>
+                    <div class="product-content">
+                        <h5>Tilapiia Fish</h5>
+                        <p>Premium nutritious feed formulated for optimal livestock growth and health.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-leaf me-2"></i>GreenHarvest</h5>
+                    <p style="color: rgba(255, 255, 255, 0.7); line-height: 1.8;">Building a sustainable future through innovative agricultural practices. Empowering farmers and preserving nature for generations to come.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#vision">Vision & Mission</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Products</h5>
+                    <ul class="footer-links">
+                        <li><a href="#products">All Products</a></li>
+                        <li><a href="#products">Organic Rice</a></li>
+                        <li><a href="#products">Vegetables</a></li>
+                        <li><a href="#products">Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Jl. Pertanian No. 123, Bandung, West Java</a></li>
+                        <li><a href="tel:+62221234567"><i class="fas fa-phone"></i> +62 22 123 4567</a></li>
+                        <li><a href="tel:+62221234567"><i class="fas fa-whatsapp"></i> +62 22 123 4567</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i> Mon - Fri: 08:00 - 17:00</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GreenHarvest Agriculture. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> for a sustainable future</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
