@@ -1453,6 +1453,7 @@ textarea.form-control {
         padding: 12px 28px;
         font-size: 0.95rem;
         margin-left: 0;
+        margin-bottom: 30px;
     }
 
     /* Other responsive styles */
@@ -1558,7 +1559,7 @@ textarea.form-control {
     }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .hero-content h1 {
         font-size: 1.9rem;
     }
@@ -1575,4 +1576,4 @@ textarea.form-control {
         padding: 12px 24px;
         font-size: 0.9rem;
     }
-}
+} */
